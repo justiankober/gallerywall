@@ -6,7 +6,7 @@
   left: 50px;
   border: 2px solid black;
   margin: 200px 10px;
-  transform: rotate(20deg);
+  transform: rotate(10deg);
   filter: grayscale(100);
   padding: 10px 10px 40px 10px;
   opacity: 0.5;
@@ -16,11 +16,11 @@
   float: left;
   width: 200px;
   position: relative;
-  top: -50px;
-  left: 20px;
+  top: -30px;
+  left: -50px;
   border: 2px solid black;
   margin: 200px 10px;
-  transform: rotate(20deg);
+  transform: rotate(5deg);
   filter: grayscale(100);
   padding: 10px 10px 40px 10px;
   opacity: 0.5;
@@ -31,10 +31,10 @@
   width: 200px;
   position: relative;
   top: -80px;
-  left: -20px;
+  left: -140px;
   border: 2px solid black;
   margin: 200px 10px;
-  transform: rotate(20deg);
+  transform: rotate(-5deg);
   filter: grayscale(100);
   padding: 10px 10px 40px 10px;
   opacity: 0.5;
@@ -45,10 +45,10 @@
   width: 200px;
   position: relative;
   top: -120px;
-  left: -50px;
+  left: -250px;
   border: 2px solid black;
   margin: 200px 10px;
-  transform: rotate(20deg);
+  transform: rotate(-10deg);
   filter: grayscale(100);
   padding: 10px 10px 40px 10px;
   opacity: 0.5;
@@ -59,22 +59,26 @@
   z-index: 1;
   opacity: 1;
   filter: grayscale(0);
+  background: white;
 }
 .labrador:hover {
   transform: rotate(0deg);
   z-index: 1;
   opacity: 1;
   filter: grayscale(0);
+  background: white;
 }
 .retriever:hover {
   transform: rotate(0deg);
   z-index: 1;
   opacity: 1;
   filter: grayscale(0);
+  background: white;
 }
 .shepherd:hover {
   transform: rotate(0deg);
   z-index: 1;
   opacity: 1;
   filter: grayscale(0);
+  background: white;
 }
