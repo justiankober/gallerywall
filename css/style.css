@@ -1,9 +1,9 @@
 .husky {
   float: left;
   width: 200px;
-  position: relative;
-  top: 20px;
-  left: 50px;
+  position: absolute;
+  top: 10%;
+  left: 10%;
   border: 2px solid black;
   margin: 200px 10px;
   transform: rotate(10deg);
@@ -13,11 +13,10 @@
 }
 
 .labrador {
-  float: left;
   width: 200px;
-  position: relative;
-  top: -30px;
-  left: -50px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
   border: 2px solid black;
   margin: 200px 10px;
   transform: rotate(5deg);
